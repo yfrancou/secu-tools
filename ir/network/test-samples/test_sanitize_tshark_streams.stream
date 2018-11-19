@@ -1,0 +1,95 @@
+
+===================================================================
+Follow: tcp,ascii
+Filter: tcp.stream eq 0
+Node 0: 123.45.178.110:50451
+Node 1: 10.0.10.65:8080
+80
+CONNECT www.78abcd.net:80  HTTP/1.1
+Host: www.78abcd.net
+Connection: close
+
+
+	39
+HTTP/1.1 200 Connection established
+
+
+1460
+POST /abcdefgh/abcdef.jpg HTTP/1.1
+Accept: text/html, application/xhtml+xml, */*
+Accept-Language: en-US
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/11.2.3333.4 Safari/555.66
+Accept-Encoding: gzip, deflate
+Host: www.78abcd.net
+Content-Type: multipart/form-data; boundary=---------------------------12365478987465413315162962261
+Content-Length: 1046
+Connection: close
+Cookie: theme=TFdMX10RBgEWHwQbCQ0EGwQ=
+
+-----------------------------12365478987465413315162962261
+Content-Disposition: form-data; name="abc"
+
+J6DTVNxJC1SWZkeJMAhMsEwFX2juY4t6tv4l4klNY4DutR4YTMzq27U7DyLQFUQ4sUpjzVSrZrvZxTflBIjOtvjX8KWqS9kbDg52RVeZrVNqLaMUlZkVuAE1GalI0zZD6JovymEh33D4lZPnaWUZKkFLJbSDomeHoLN6DrYG3EBoMSbAbQJZBHwNwlSr1IbYVgYr5VNBLi7hNIbpVkeRcgWakVu908fMkBoXeXyQuXhjsF9tVdYiIm9j70rcaiUQANSA1ByEoiAVP2V95kfhP7iO3v3ODuaYZoG3w9pd2N7NjD4KoJGBop3bhU0Bg350wsFaXzMCkdHPn5xTqVseDwMSUgRAHn1geRz019o8BBweKFG1hs06xbAR3C8bpZJoTEZyjs0Y2jBBwEZcZ0klkcNDNmakaYQzrH3NEwhe5zvZh1qn48oG3UNkuyJT173BgIhvr5nbBTXTRqVMJkCVpxHoJEQ94fLdo0yNjQoowPKBjY0QVQ4L4V2S0AYiCc33nwY4n6IxGB9sd2ZWRcrebDXFAmg722fLhX24bxGXWu8vxtaxKUslMWoCBNncu5WL3yQ3sFmmLoKtMsQH1C3XVBCHzNOz3IUCWR8KdIhAFZ5lWC6EATtOfQX99DXb0XqIKYCssTCjlATlfzT6UubIXNLzhrzaT6zWVMGjFo7DFxMxCgPfcx1L3xekmoUoNSyeGcx3TxEmIoWuZX0MNgvTtQIxCTYYL4QyAWAvKsWbOsXReOBdVOT5HR9MwMyEl4A6fLRSR2QgZnsHAYtLXKBOaMjYYNX24vpX77DOujVhk7q3f1XGlXBavn7ldhgkXssAO4tM7eYuVdqmBjFyDn5i5E0VXMla8g26BKw8SaONacH=
+----------------
+46
+-------------12365478987465413315162962261--
+
+	1306
+HTTP/1.1 404 Not Found
+Date: Thu, 08 Nov 2018 09:27:19 GMT
+Server: Apache/1.2.33 (Unix) OpenSSL/1.2.3m PHP/1.2.3 mod_perl/1.2.3-dev Perl/v1.23.4
+Vary: accept-language,accept-charset
+Accept-Ranges: bytes
+Content-Language: en
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=utf-8
+Connection: close
+
+3d4
+<!--?xml version="1.0" encoding="UTF-8"?-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>Object not found!</title>
+<link rev="made" href="mailto:admin@abcdefghij.com">
+<style type="text/css"><!--/*--><![CDATA[/*><!--*/ 
+    body { color: #000000; background-color: #FFFFFF; }
+    a:link { color: #0000CC; }
+    p, address {margin-left: 3em;}
+    span {font-size: smaller;}
+/*]]>*/--></style>
+</head>
+
+<body>
+<h1>Object not found!</h1>
+<p>
+
+
+    The requested URL was not found on this server.
+
+  
+
+    If you entered the URL manually please check your
+    spelling and try again.
+
+  
+
+</p>
+<p>
+If you think this is a server error, please contact
+the <a href="mailto:admin@abcdefghij.com">webmaster</a>.
+
+</p>
+
+<h2>Error 404</h2>
+
+
+</body></html>
+<!--T2BCGl3iiX==-->
+
+
+	5
+0
+
+
+===================================================================
